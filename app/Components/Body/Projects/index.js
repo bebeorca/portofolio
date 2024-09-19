@@ -1,5 +1,8 @@
 import Quiz from "./Components/quiz"
 import Laundry from "./Components/laundry"
+import Kaset from "./Components/kaset";
+import YansG from "./Components/yg";
+import ARC from "./Components/arc";
 
 export default function Projects() {
     return (
@@ -9,8 +12,13 @@ export default function Projects() {
             </h1>
             <div className="lg:flex z-50 text-white ">
                 <Quiz />
-                <Laundry />  
+                <Laundry />
+            </div>
+            <Kaset />
+            <div className="lg:flex z-50 text-white ">
+                <YansG />
+                <ARC />
             </div>
         </div>
-    )
+    );
 }

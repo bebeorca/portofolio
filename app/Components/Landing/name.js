@@ -6,6 +6,7 @@ export default function LandingName(){
                 <h1>Deo</h1>
                 <h1>Rezkidyo</h1>
             </div>
+            <p className="md:text-2xl text-lg lg:pt-6">Software Engineer</p>
         </div>
     );
 }

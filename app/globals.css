@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: "RocaOne";
+  src: url("./fonts/Roca Regular.ttf") format('truetype');
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.cursor {
+  position: fixed;
+  border-radius: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+  mix-blend-mode: difference;
+  background-color: #FFB200;
+  z-index: 10000;
+  border: 2px solid transparent;
+  height: 170px;
+  width: 170px;
+  transition: all 300ms ease-out;
+  will-change: transform, background-color, width, height;
 }
