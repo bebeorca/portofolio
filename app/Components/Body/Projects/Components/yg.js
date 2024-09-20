@@ -9,7 +9,7 @@ export default function YansG() {
                 </h1>
                 <span>Website</span>
             </div>
-            <Image src={"/images/projects/yans.png"} width={384} height={0} className="w-96 shadow-md transform group-hover:scale-110 transition-transform duration-300 ease-in-out"/>
+            <Image src={"/images/projects/yans.png"} width={384} height={0} alt="Image" className="w-96 shadow-md transform group-hover:scale-110 transition-transform duration-300 ease-in-out"/>
             <h1 className="pt-10 lg:px-16 space-y-1">
                 Built with <span className="highlight-animation px-1">HTML and Tailwind</span>, this website provides information for those who want to make their garden more vibrant and alive.
             </h1>

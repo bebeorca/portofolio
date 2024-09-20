@@ -9,7 +9,7 @@ export default function ARC() {
                 </h1>
                 <span>Website</span>
             </div>
-            <Image src={"/images/projects/arc.png"} width={384} height={0} className="w-96 shadow-md transform group-hover:scale-110 transition-transform duration-300 ease-in-out"/>
+            <Image src={"/images/projects/arc.png"} width={384} height={0} alt="Image" className="w-96 shadow-md transform group-hover:scale-110 transition-transform duration-300 ease-in-out"/>
             <h1 class="pt-10 lg:px-16 space-y-1">
                 Built with <span class="highlight-animation px-1">Vue and Tailwind</span>, this website is designed to advertise a car rental business based in Makassar.
             </h1>

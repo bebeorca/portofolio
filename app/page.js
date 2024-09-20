@@ -53,8 +53,9 @@ export default function Home() {
 
     // Apply the random background and text colors to the body
     
+    document.body.classList.add(randomBgColor, randomTextColor);
     return () => {
-      document.body.classList.add(randomBgColor, randomTextColor);
+      document.body.classList.remove(randomBgColor, randomTextColor);
       document.body.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);

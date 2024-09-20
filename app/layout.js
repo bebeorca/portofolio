@@ -1,5 +1,4 @@
 import "./globals.css";
-import Head from "next/head";
 
 
 export const metadata = {
@@ -10,11 +9,15 @@ export const metadata = {
   },
 };
 
+function bgEditor(){
+  //todo
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="font-roca "
+        className="font-roca scrollbar"
       >
         {children}
       </body>
